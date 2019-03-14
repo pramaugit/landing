@@ -1,0 +1,33 @@
+.banner {
+  height: 600px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-shadow: 5px 5px 4px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.banner p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+.btn-red {
+  text-decoration: none;
+  background-color: #FC5C63;
+  padding: 8px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-red:hover {
+  opacity: 0.8;
+}
